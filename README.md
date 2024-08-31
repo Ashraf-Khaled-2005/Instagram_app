@@ -1,16 +1,61 @@
-# instagram_app
+# Instagram-Like App
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter application emulates key features of Instagram, providing users with a social media experience that includes authentication, user profiles, posts, stories, and real-time chat. The app leverages Firebase for backend services and Cloud Storage for handling user images.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Firebase Authentication**:
+  - Users can sign up and log in using their email and password.
+  - Supports secure user registration and login.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **User Profile**:
+  - Users can upload and update their profile picture.
+  - Manage their username and other profile details.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Search and Follow**:
+  - Users can search for other users.
+  - Follow and unfollow other users.
+
+- **Posts**:
+  - Users can create, view, and delete posts.
+  - Add comments to posts.
+
+- **Stories**:
+  - Users can create and view stories.
+  - Stories automatically delete after 24 hours.
+
+- **Chat**:
+  - Real-time messaging between users using Firebase Cloud Firestore.
+
+- **Firebase Cloud Storage**:
+  - Store and manage user profile pictures and post images.
+
+- **App Icon Change**:
+  - Customize the app icon as needed.
+
+## Technical Details
+
+- **Flutter**: The app is developed using Flutter for a cross-platform mobile experience.
+
+- **Firebase Authentication**:
+  - Manages user authentication and session state with email and password.
+
+- **Cloud Firestore**:
+  - Real-time database used for storing user data, posts, comments, and chat messages.
+
+- **Firebase Cloud Storage**:
+  - Used to store and manage user profile pictures and post images.
+
+- **Automatic Story Deletion**:
+  - Stories are automatically deleted after 24 hours using Firebase functions or scheduled tasks.
+
+- **App Icon Change**:
+  - The app includes functionality to change the app icon.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <https://github.com/Ashraf-Khaled-2005/Instagram_app.git>
